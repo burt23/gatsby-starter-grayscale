@@ -27,7 +27,7 @@ const IndexPage = () => (
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              Reserve 
+              Reserve
             </a>
           </Scroll>
         </div>
@@ -40,15 +40,12 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">Astra coming soon</h2>
             <p className="text-white-50">
-              Check out all the latest release at 
-              <a href="https://soundcloud.com/dashurpa">
-                soundcloud 
-              </a>
-              .
+              Check out all the latest release at{' '}
+              <a href="https://soundcloud.com/dashurpa">soundcloud</a>.
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        {/* <img src={ipad} className="img-fluid" alt="" /> */}
       </div>
     </section>
 

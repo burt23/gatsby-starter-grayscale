@@ -3,25 +3,60 @@ import React from 'react';
 export default function Subscribe() {
   return (
     <section id="signup" className="signup-section">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-10 col-lg-8 mx-auto text-center">
-            <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h2 className="text-white mb-5">Subscribe to receive updates!</h2>
-
-            <form className="form-inline d-flex">
+      <link
+        href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css"
+        rel="stylesheet"
+        type="text/css"
+      ></link>
+      <style type="text/css"></style>
+      <div id="mc_embed_signup">
+        <form
+          action="https://band.us6.list-manage.com/subscribe/post?u=9fd981d55b149ba29e039214c&amp;id=e7bc6f4f7b"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+          <div id="mc_embed_signup_scroll">
+            <label
+              for="mce-EMAIL"
+              style={{ fontSize: '2.3rem', color: '#fff' }}
+            >
+              Subscribe
+            </label>
+            <input
+              type="email"
+              // value=""
+              name="EMAIL"
+              class="email"
+              id="mce-EMAIL"
+              placeholder="email address"
+              required
+            />
+            <div
+              style={{ position: 'absolute', left: '-5000px' }}
+              aria-hidden="true"
+            >
               <input
-                type="email"
-                className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
-                id="inputEmail"
-                placeholder="Enter email address..."
+                type="text"
+                name="b_9fd981d55b149ba29e039214c_e7bc6f4f7b"
+                tabindex="-1"
+                // value=""
               />
-              <button type="submit" className="btn btn-primary mx-auto">
-                Subscribe
-              </button>
-            </form>
+            </div>
+            <div class="clear">
+              <input
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button"
+              />
+            </div>
           </div>
-        </div>
+        </form>
       </div>
     </section>
   );

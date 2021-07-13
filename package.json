@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-grayscale",
+  "name": "Mike-Torres-Music",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Grayscale by startbootstrap",
+  "description": "Original music created by Mike Torres on guitar and vocals. Music created in Austin, TX.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-grayscale.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Mike Torres",
+    "email": "contact@miketorres.band"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
@@ -41,7 +41,8 @@
   "keywords": [
     "gatsby",
     "gatsby-starter",
-    "gatsby-starter-grayscale"
+    "gatsby-starter-grayscale",
+    "mike-torres-band"
   ],
   "license": "MIT",
   "bugs": {
