@@ -9,7 +9,6 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
@@ -26,8 +25,11 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary">
-              Reserve
+            <a
+              href="https://www.twitch.tv/miketorresmusic"
+              className="btn btn-primary"
+            >
+              Check me out on Twitch!
             </a>
           </Scroll>
         </div>
@@ -38,14 +40,13 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Astra coming soon</h2>
+            <h2 className="text-white mb-4">More music coming soon!</h2>
             <p className="text-white-50">
               Check out all the latest release at{' '}
               <a href="https://soundcloud.com/dashurpa">soundcloud</a>.
             </p>
           </div>
         </div>
-        {/* <img src={ipad} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
@@ -57,11 +58,11 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>Instrumentals</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                The first few songs scheduled for release will be instrumentals.
+                These will be created off a Boss RC-30 looper with several
+                layers for each track.
               </p>
             </div>
           </div>
@@ -75,10 +76,14 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Connection</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    It's always been my view that music has more power to unite
+                    people than almost any other medium. That is my impotus for
+                    creating music, and why I seek to spread a message of
+                    positive and unity through my creations. From harmonizing
+                    with others to uplifting spirits, music is the catalist for
+                    change that the world needs.
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -95,11 +100,13 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">What's Next</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    Having played with a few others in Florida, Mike recently
+                    moved to Austin TX with his eyes on music. Stay tuned for
+                    developments as a band forms and shows get scheduled. Join
+                    the mailing list today for the latest updates along the
+                    journey!
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>

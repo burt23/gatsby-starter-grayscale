@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: $primary;
+  color: white !important;
   &:focus,
   &:hover {
     text-decoration: none;
