@@ -9,9 +9,10 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+import rainbows from '../assets/images/rainbows.jpg';
+import recording from '../assets/images/recording.jpg';
+
+import guitar from '../assets/images/guitar.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -54,7 +55,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={guitar} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
@@ -70,7 +71,11 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img
+              className="img-fluid"
+              src={rainbows}
+              alt="photo by mike of a colorful rainbow pattern"
+            />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -94,7 +99,11 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img
+              className="img-fluid"
+              src={recording}
+              alt="photo of inside a recording studio"
+            />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
