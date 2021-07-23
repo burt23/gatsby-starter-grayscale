@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+import logo from '../assets/img/logo.png';
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -41,7 +42,13 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+            {/* {config.siteTitle} */}
+            <img
+              style={{ maxWidth: '200px' }}
+              className="headerLogo"
+              src={logo}
+              alt="logo"
+            />
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
