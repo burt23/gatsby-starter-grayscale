@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
+import ThreeAnimation from '../components/ThreeAnimation';
 
 import config from '../../config';
 import Footer from '../components/Footer';
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <Header />
 
     <header className="masthead">
+      <ThreeAnimation />
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
           <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>

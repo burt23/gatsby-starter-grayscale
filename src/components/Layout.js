@@ -24,8 +24,12 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Grayscale' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Mike Torres Music' },
+                {
+                  name: 'keywords',
+                  content:
+                    'mike, torres, band, music, songwriter, guitar, folk, rock, americana',
+                },
               ]}
             >
               <html lang="en" />

@@ -11,6 +11,7 @@
     "email": "contact@miketorres.band"
   },
   "dependencies": {
+    "@react-three/fiber": "^7.0.6",
     "gatsby": "^2.4.3",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^3.1.0",
@@ -22,7 +23,8 @@
     "react-helmet": "^5.2.1",
     "react-images": "^1.1.0",
     "react-scrollspy": "^3.4.0",
-    "smoothscroll-polyfill": "^0.4.4"
+    "smoothscroll-polyfill": "^0.4.4",
+    "three": "^0.131.3"
   },
   "scripts": {
     "develop": "gatsby develop",
